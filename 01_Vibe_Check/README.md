@@ -58,8 +58,8 @@ Please evaluate your system on the following questions:
 #### ❓Question #1:
 
 Do the answers appear to be correct and useful?
-##### ✅ Answer: Looks like structured and confident answers. however, most of answers is hallucination.
-
+##### ✅ Answer: Looks like structured and confident answers. however, many of the answers are hallucination.
+![alt text](<Chat with document.png>)
 ---
 
 #### 🏗️ Activity #2: Personal Vibe Checking Evals (Your Assistant Can Answer)
@@ -92,13 +92,15 @@ Now test your assistant with personal questions it should be able to help with. 
 4. **Enhanced Sustainability:** Supports sustainability goals by tracking energy consumption and identifying opportunities for renewable energy integration.
 5. **Regulatory Compliance:** Helps ensure compliance with energy regulations and standards.
 
+
+
 #### ❓Question #2:
 
 Are the vibes of this assistant's answers aligned with your vibes? Why or why not?
 ##### ✅ Answer:
 The app provide sections that are not exisit in the document given.
 ---
-
+![alt text](Q2.png)
 #### 🏗️ Activity #3: Personal Vibe Checking Evals (Requires Additional Capabilities)
 
 Now test your assistant with questions that would require capabilities beyond basic chat, such as access to external tools, APIs, or real-time data. Try prompts like:
@@ -130,6 +132,8 @@ Note: The app doesn't link with missing info. section that provided previously.
 2. Prompt:
    - Result:
 
+   ![alt text](<email missing info.png>)
+
 #### ❓Question #3:
 
 What are some limitations of your application?
@@ -137,7 +141,7 @@ What are some limitations of your application?
 
 First the app fake sections that doesn't exit in the document given.
 Second the app are not able to link with keywords in the documents such as "software function"
-
+![alt text](Q3.png)
 
 This "vibe check" now serves as a baseline, of sorts, to help understand what holes your application has.
 
