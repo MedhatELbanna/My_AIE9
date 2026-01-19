@@ -39,7 +39,7 @@ You will be required to submit a link to your GitHub, as well as screenshots of 
 >In essence, it's a first look to ensure your system isn't experiencing catastrophic failure.
 
 ---
-
+vercel deployed app: v0-edr-prototype.vercel.app
 #### 🏗️ Activity #1: General Vibe Checking Evals
 
 Please evaluate your system on the following questions:
