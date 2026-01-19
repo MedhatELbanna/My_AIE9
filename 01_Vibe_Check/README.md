@@ -58,7 +58,7 @@ Please evaluate your system on the following questions:
 #### ❓Question #1:
 
 Do the answers appear to be correct and useful?
-##### ✅ Answer:
+##### ✅ Answer: Looks like structured and confident answers. however, most of answers is hallucination.
 
 ---
 
@@ -73,18 +73,30 @@ Now test your assistant with personal questions it should be able to help with. 
 - "What can I cook with [enter ingredients] in fridge."
 
 ##### Your Prompts and Results:
-1. Prompt:
-   - Result:
-2. Prompt:
-   - Result:
-3. Prompt:
-   - Result:
+1. Prompt: what are the main section of the document?
+   - Result: The main sections of the document are:
+1. General Requirements
+2. Controllers
+3. Field Devices
+4. Software Functions
+5. Testing & Commissioning
+2. Prompt: do we have a section for scope of work?
+   - Result: The document context does not mention a section for the scope of work.
+3. Prompt:Help me think through the pros and cons of having Energy Monitoring System
+   - Result: he document does not specifically address the pros and cons of having an Energy Monitoring System (EMS). However, I can provide a general analysis based on common knowledge:
+
+**Pros of Having an Energy Monitoring System:**
+1. **Improved Energy Efficiency:** An EMS can help identify energy consumption patterns, leading to strategies for reducing waste and improving efficiency.
+2. **Cost Savings:** By monitoring energy use, facilities can potentially lower energy bills and reduce operational costs.
+3. **Real-time Data:** Provides real-time insights into energy usage, allowing for immediate adjustments and better decision-making.
+4. **Enhanced Sustainability:** Supports sustainability goals by tracking energy consumption and identifying opportunities for renewable energy integration.
+5. **Regulatory Compliance:** Helps ensure compliance with energy regulations and standards.
 
 #### ❓Question #2:
 
 Are the vibes of this assistant's answers aligned with your vibes? Why or why not?
 ##### ✅ Answer:
-
+The app provide sections that are not exisit in the document given.
 ---
 
 #### 🏗️ Activity #3: Personal Vibe Checking Evals (Requires Additional Capabilities)
@@ -95,8 +107,26 @@ Now test your assistant with questions that would require capabilities beyond ba
 - "What time should I leave for the airport?"
 
 ##### Your Prompts and Results:
-1. Prompt:
-   - Result:
+1. Prompt:can you send email with the missing info to medhat.elbanna1@gmail.com?
+
+   - Result:I cannot send emails or directly communicate with individuals. However, I can help you draft an email to request the missing information. Here’s a suggestion:
+
+---
+
+Subject: Request for Additional Information on Building Management System Specifications
+
+Dear [Recipient's Name],
+
+I hope this message finds you well. I am currently reviewing the technical specifications for the Building Management System (BMS) and have identified some missing information that would be helpful for our project.
+
+Could you please provide details on the following:
+
+1. Specific brands or models of components to be used in the system.
+2. A detailed timeline for the implementation of the BMS.
+3. Any budgetary constraints or cost estimates related to the project.
+Thank you for your assistance. I look forward to your prompt response.
+
+Note: The app doesn't link with missing info. section that provided previously.
 2. Prompt:
    - Result:
 
@@ -105,7 +135,9 @@ Now test your assistant with questions that would require capabilities beyond ba
 What are some limitations of your application?
 ##### ✅ Answer:
 
----
+First the app fake sections that doesn't exit in the document given.
+Second the app are not able to link with keywords in the documents such as "software function"
+
 
 This "vibe check" now serves as a baseline, of sorts, to help understand what holes your application has.
 
