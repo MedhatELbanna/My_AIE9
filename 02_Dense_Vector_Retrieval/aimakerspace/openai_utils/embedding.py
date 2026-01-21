@@ -8,15 +8,27 @@ import asyncio
 
 class EmbeddingModel:
     def __init__(self, embeddings_model_name: str = "text-embedding-3-small", batch_size: int = 1024):
+        # Try to load .env from current directory and likely locations
         load_dotenv()
+        # Try loading from the directory containing this file (going up to project root)
+        current_file_dir = os.path.dirname(os.path.abspath(__file__))
+        possible_paths = [
+            os.path.join(current_file_dir, '../../.env'),  # 02_Dense_Vector_Retrieval/.env
+            os.path.join(current_file_dir, '../../../.env'),  # My_AIE9/.env
+            '.env'  # Current working directory
+        ]
+        for env_path in possible_paths:
+            env_path = os.path.abspath(env_path)
+            if os.path.exists(env_path):
+                load_dotenv(env_path)
         self.openai_api_key = os.getenv("OPENAI_API_KEY")
-        self.async_client = AsyncOpenAI()
-        self.client = OpenAI()
 
         if self.openai_api_key is None:
             raise ValueError(
                 "OPENAI_API_KEY environment variable is not set. Please set it to your OpenAI API key."
             )
+        self.async_client = AsyncOpenAI(api_key=self.openai_api_key)
+        self.client = OpenAI(api_key=self.openai_api_key)
         self.embeddings_model_name = embeddings_model_name
         self.batch_size = batch_size
 
