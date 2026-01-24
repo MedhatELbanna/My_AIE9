@@ -1,0 +1,11 @@
+# Jupyter Notebook merge strategy (requires nbdime)
+*.ipynb merge=jupyternotebook
+*.ipynb diff=jupyternotebook
+
+# Python files
+*.py text eol=lf
+
+# Other text files
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
