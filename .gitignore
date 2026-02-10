@@ -1,9 +1,9 @@
 .DS_Store
 .env
 content/
-.claude/
 __pycache__/
 *.pyc
 .langgraph_api/
 .venv
 uv.lock
+workspace
