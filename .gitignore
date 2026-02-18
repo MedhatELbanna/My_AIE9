@@ -7,3 +7,7 @@ __pycache__/
 .langgraph_api/
 .venv
 uv.lock
+<<<<<<< HEAD
+=======
+workspace
+>>>>>>> f2de15a1710f7b75c76800fba564abfdb4f69b9b
