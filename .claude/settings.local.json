@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(python -c \"import json; json.load\\(open\\(''02_Dense_Vector_Retrieval/Embedding_Primer.ipynb''\\)\\)\")",
+      "Bash(python:*)",
+      "Bash(echo $OPENAI_API_KEY)",
+      "Bash(export OPENAI_API_KEY=\"REDACTED_OPENAI_KEY\")",
+      "Bash(pip install:*)",
+      "Bash(jupyter nbconvert:*)",
+      "Bash(ollama list)",
+      "Bash(del \"E:\\\\AIM\\\\AIE9\\\\My_AIE9\\\\06_Agent_Memory\\\\fix_activities.py\")",
+      "Bash(done)",
+      "Bash(ls -lah /e/AIM/AIE9/My_AIE9/*.md /e/AIM/AIE9/My_AIE9/.gitignore /e/AIM/AIE9/My_AIE9/.gitattributes)"
+    ]
+  }
+}
